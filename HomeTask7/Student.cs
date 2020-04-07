@@ -9,9 +9,9 @@ public class Student
     private List<int> ratings = new List<int>();
 
     private void AddRating(int rating) => ratings.Add(rating);
-    private decimal GetAverageRating() => (decimal)ratings.Average();
+    public decimal GetAverageRating() => (decimal)ratings.Average();
 
-    private List<int> PrintAllRatingsOfStudent()
+    public List<int> PrintAllRatingsOfStudent()
     {
         if (ratings.Count == 0)
         {
