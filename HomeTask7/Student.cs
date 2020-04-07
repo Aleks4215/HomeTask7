@@ -5,10 +5,10 @@ using System.Linq;
 public class Student
 {
 
-    private string firstName, lastName;
+    public string firstName, lastName;
     private List<int> ratings = new List<int>();
 
-    private void AddRating(int rating) => ratings.Add(rating);
+    public void AddRating(int rating) => ratings.Add(rating);
     public decimal GetAverageRating() => (decimal)ratings.Average();
 
     public List<int> PrintAllRatingsOfStudent()

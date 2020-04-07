@@ -3,8 +3,7 @@ using System.Collections.Generic;
 
 public class Group
 {
-    List<Student> students = new List<Student>();
-    Student student = new Student();
+    public List<Student> students = new List<Student>();
 
     public void GetRatingsForAllStudents()
     {
